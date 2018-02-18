@@ -2,16 +2,17 @@
 
 startme() {
     echo "Starting microblog.."
-	nohup node cluster.js > /dev/null &
-	echo $! > microblog.pid
-	echo "Started."
+    nohup node cluster.js > output.log 2>&1 &
+    echo $! > microblog.pid
+    echo "Started."
 }
 
 stopme() {
     echo "Stoping microblog.."
-	pid = `cat microblog.pid`
-	kill $pid
-	echo "Stoped."
+    pid=`cat microblog.pid`
+    kill $pid
+    rm -f microblog.pid
+    echo "Stoped."
 }
 
 case "$1" in 

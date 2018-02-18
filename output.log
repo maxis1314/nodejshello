@@ -1,0 +1,14 @@
+Master 2088 is running cpu:1
+Worker 2093 started
+[90mGET / [36m304 [90m33ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m18ms[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/bootstrap-responsive.css [36m304 [90m4ms[0m
+[90mGET / [36m304 [90m16ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m8ms[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/bootstrap-responsive.css [36m304 [90m8ms[0m
+[90mGET / [36m304 [90m15ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m16ms[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m25ms[0m
+[90mGET /stylesheets/bootstrap-responsive.css [36m304 [90m18ms[0m
